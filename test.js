@@ -1,24 +1,23 @@
+var myDate = new Date()
+console.log(myDate)
 
-var Car=function(maxSpeed, Driver){
-    this.maxSpeed=210,
-    this.Driver="Petya",
-    this.drive=function(speed, time){
-        console.log(speed*time);},
-    this.logDriver=function(){
-        console.log("Driver name is "+ this.Driver);
-    }
-    }
+var myPastDate=new Date(1545, 11, 2)
+var myFeatureDate=new Date(2030, 11, 3,10, 30, 15)
+console.log(myPastDate+myFeatureDate)
 
-    
-    var myCar0=new Car(110, "Vasya")
-    var myCar1=new Car(100, "Petya")
-    var myCar2=new Car(200, "Ninja")
-    var myCar3=new Car(150, "Lyubchik")
+var birthday = new Date (1985, 0, 5, 1, 2, 3)
+var birthday0 = new Date (1985, 0, 5, 1, 2, 3)
 
-    myCar0.drive(100,5)
-    myCar3.logDriver()
+console.log(birthday.getDate())
+console.log(birthday.getFullYear())
+console.log(birthday.getHours())
+console.log(birthday.getMonth())
 
-
+if(birthday.getFullYear === birthday0.getFullYear){
+    console.log("birthdays are equal")
+} else{
+    console.log("birthday are not equal")
+}
 
     
 
