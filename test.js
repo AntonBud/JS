@@ -1,12 +1,23 @@
 
-var Myage = 29;
-if (Myage > 30){
-    document.write("You are older then 30")
 
-} else if(Myage >20) {
-    document.write("You are over 20")
-}else if (Myage >10){
-    document.write("Yo're over 10")
-}else{
-    document.write("you are not yonger then 10")
+
+var MyAge = 10;
+
+if(MyAge >=18 && MyAge <= 30){
+    document.write("You are 18-30age");
+} else{
+    document.write("You are not 18-30");
 }
+
+
+if(MyAge <18 || MyAge > 30){
+    document.write("You are not 18-30age");
+} else{
+    document.write("You are 18-30");
+}
+
+
+
+
+
+
