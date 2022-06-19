@@ -1,28 +1,10 @@
-
-
-
-for(i =0; i<10; i++){
-    console.log(i)
-    if (i===7){
-        break
-    }
+function getAverage (a,b,c,d){
+    var average = (a+b+c+d)/4;
+    console.log(average)
+    return average;
 }
 
-console.log("loop is broken")
 
 
-for(q =0; q<10; q++){
-    
-    if (q===5 || q===3){
-        continue;
-    }
-
-console.log(q)
-if(q===7){
-    break
-}
-}
-console.log("loop is broken")
-
-
-
+var MyResult = getAverage(7,12,10,1);
+console.log("Result is" + MyResult);
