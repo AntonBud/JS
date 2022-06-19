@@ -1,28 +1,28 @@
 
 
 
-var MyAge = 1;
-
-while(MyAge <10){
-    console.log("you're less 10")
-    MyAge++
+for(i =0; i<10; i++){
+    console.log(i)
+    if (i===7){
+        break
+    }
 }
 
-document.write("You're over 10")
+console.log("loop is broken")
 
 
-var links=document.getElementsByTagName("a")
-for(i =1; i<=links.length; i++){
-    console.log("this is link number" + i)
-    MyAge++
+for(q =0; q<10; q++){
+    
+    if (q===5 || q===3){
+        continue;
+    }
+
+console.log(q)
+if(q===7){
+    break
 }
-
-document.write("all links are looped")
-
-
-
-
-
+}
+console.log("loop is broken")
 
 
 
