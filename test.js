@@ -1,15 +1,20 @@
-function getAverage (a,b,c,d){
-    var average = (a+b+c+d)/4;
-    console.log(average)
-    return average;
+var a=5;
+var b=5;
+console.log(a+b);
+console.log(typeof(a+b))
+
+console.log(Math.round(7.8))
+console.log(Math.max(7,2,4,5))
+console.log(Math.PI)
+
+var a=6;
+var b=5;
+console.log(a*b);
+console.log(typeof(a+b))
+
+if(isNaN(a)){
+   console.log("not a number");
+
+}else{
+    console.log("meaning offunchion is"+ (a+b));
 }
-
-
-
-var MyResult = getAverage(7,12,10,1);
-
-function logresult(){
-    console.log("the average is " +MyResult +"inside the function");
-}
-
-logresult();
