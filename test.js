@@ -24,6 +24,12 @@ console.log(tags.split(","))
 var myArray=[];
 myArray[0]=25
 myArray[1]=35
+myArray[2]="hello"
 myArray[3]=45
 
 console.log(myArray)
+
+var myArray1=[12,15,"Hallo", false]
+
+console.log(myArray,myArray1)
+console.log(myArray1.length)
