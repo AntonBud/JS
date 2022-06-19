@@ -1,20 +1,25 @@
 
 
 
-var MyAge = 10;
+var MyAge = 1;
 
-if(MyAge >=18 && MyAge <= 30){
-    document.write("You are 18-30age");
-} else{
-    document.write("You are not 18-30");
+while(MyAge <10){
+    console.log("you're less 10")
+    MyAge++
 }
 
+document.write("You're over 10")
 
-if(MyAge <18 || MyAge > 30){
-    document.write("You are not 18-30age");
-} else{
-    document.write("You are 18-30");
+
+var links=document.getElementsByTagName("a")
+for(i =1; i<=links.length; i++){
+    console.log("this is link number" + i)
+    MyAge++
 }
+
+document.write("all links are looped")
+
+
 
 
 
