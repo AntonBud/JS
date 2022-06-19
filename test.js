@@ -1,35 +1,25 @@
-var myString="I'm a string\"Ninja\""
-console.log(myString.length)
+var myArray=new Array()
+myArray[0]=8
+myArray[1]="Hallo"
 
-console.log(myString.toUpperCase())
-console.log(myString.indexOf("Ninja"))
-if (myString.indexOf("Ninja")=== -1){
-    console.log("Ninja is not in the string")
-} else{
-    console.log("Ninja is here, on "+ myString.indexOf("Ninja")+" place")
-}
+var myCar=new Object();
+myCar.maxSpeed=200;
+myCar.Driver="Vasya"
+console.log(myCar.Driver)
 
-var string1="abc";
-var string2="ABC";
 
-console.log(string1.toLowerCase === string2.toLowerCase);
 
-var str="hallo world";
-var str2=str.slice(2,9)
-console.log(str,"Sliced version is ", str2)
+myCar.Drive= function(){
+    console.log("Now driving");
+};
 
-var tags="meat, ham, chicken, pork, beef"
-console.log(tags.split(","))
 
-var myArray=[];
-myArray[0]=25
-myArray[1]=35
-myArray[2]="hello"
-myArray[3]=45
+myCar.Drive();
+var myCar0={
+    maxSpeed:210,
+     Driver:"Petya",
+      drive:function(speed, time){console.log(speed*time);}
+    }
 
-console.log(myArray)
-
-var myArray1=[12,15,"Hallo", false]
-
-console.log(myArray,myArray1)
-console.log(myArray1.length)
+    console.log(myCar0.maxSpeed);
+    myCar0.drive(120, 3)
